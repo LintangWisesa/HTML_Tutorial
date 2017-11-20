@@ -1,0 +1,108 @@
+
+//Articles and Sections
+
+You can think of an article as standalone content. Like in articles you might see in a newspaper, articles will ideally contain sections like introductions, the main content, and then perhaps a footer with some closing notes.
+
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Article</title>
+		</head>
+		<body>
+			<article>
+			    <section class="header">
+					<h1>Article heading</h1>
+			        <p>Hello there!</p>
+			    </section>
+			    <section class="main">
+			        <p>This is the main content</p>
+			    </section>
+			    <section class="footer">
+			        <p>Good-bye!</p>
+			    </section>
+			</article>
+		</body>
+	</html>
+
+
+As you can probably tell, section tags are used to split up the article into smaller, more cohesive parts. section tags act like div tags in that they're both blocks, but section tells the browser that whatever is inside is just a piece of the larger puzzle. We used section tags for headers and footers, but there are actually tags made specifically for this.
+
+
+=========================================
+
+
+//Headers and Footers
+
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Article</title>
+		</head>
+		<body>
+			<article>
+			    <header>
+					<h1>Article heading</h1>
+			        <p>Hello there!</p>
+			    </header>
+			    <section class="main">
+			        <p>This is the main content</p>
+			    </section>
+			    <footer>
+			        <p>Good-bye!</p>
+			    </footer>
+			</article>
+		</body>
+	</html>
+
+
+==================================
+
+
+//Asides
+
+<article>
+	    <header>
+			<h1>Article heading</h1>
+	        <p>Hello there!</p>
+	    </header>
+	    <section class="main">
+	        <p>This is the main content</p>
+			<aside>
+		        <h2>This is a small snippet!</h2>
+		        <p>Snippet text goes here.</p>
+		    </aside>
+	    </section>
+	    <footer>
+	        <p>Good-bye!</p>
+	    </footer>
+	</article>
+
+
+===================================
+
+
+//Navigation
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Navigation</title>
+		</head>
+		<body>
+			<nav>
+			    <ul>
+			        <li><a href="/page1/">Page 1</a></li>
+			        <li><a href="/page2/">Page 2</a></li>
+			        <li><a href="/page3/">Page 3</a></li>
+			    </ul>
+			</nav>
+			<article>(Article content here)</article>
+		</body>
+	</html>
+
+
+==================================
+
+

@@ -1,0 +1,161 @@
+
+Forms = Textarea, Select, Option Groups
+Input = 
+
+
+Action = The action attribute is simply the location that the information from the form is being sent to. The value of this attribute will therefore be a URL of some kind.
+
+Method = The method attribute defines how the form is going to send the information. The two most used values for this attribute is get and post.
+
+
+
+If you try doing a Google search, and look at the URL at the top afterwards, you will see the text you typed before hitting search. This is an example of get. Using get will make the data inputted in a form get appended to the end of the URL.
+
+On the other hand, using post will still send the data like get, but the only main difference is that you will not see it in the URL. Using post is recommended for submissions that require heightened security like passwords and personal information.
+
+Put it all together, and you get this form:
+
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Forms</title>
+		</head>
+		<body>
+			<form action="destination.php" method="get">
+			</form>
+		</body>
+	</html>
+
+
+========================================
+
+
+//Textarea
+
+<textarea rows="8" cols="64">This is the initial value.</textarea
+
+
+======================================
+
+
+//Select
+
+<p>Favorite color?</p>
+	<select>
+	    <option>Red</option>
+	    <option>Blue</option>
+	    <option>Green</option>
+	</select>
+	
+
+<p>Favorite color?</p>
+	<select>
+	    <option>Red</option>
+	    <option selected>Blue</option>
+	    <option>Green</option>
+	</select>
+
+
+========================================
+
+
+//Option Groups
+
+<p>Favorite color?</p>
+	<select>
+		<optgroup label="Dark Colors">
+			<option>Brown</option>
+			<option>Black</option>
+			<option>Purple</option>
+		</optgroup>
+		<optgroup label="Light Colors">
+			<option>Yellow</option>
+			<option>White</option>
+			<option>Pink</option>
+		</optgroup>
+	</select>
+
+
+======================================
+
+//INPUT
+
+<input type="text">
+
+<input type="password">
+
+<input type="checkbox">
+
+<input type="radio">
+
+<input type="number" min="1" max="10">
+
+<input type="submit" value="Submit this Form"
+
+
+========================================
+
+
+//button
+
+<form action="destination.php" method="get">
+		 <button type="reset">Reset Form</button>
+	</form>
+
+<button type="button">I currently do nothing!</button>
+
+<button type="button" onclick="doSomething();">I currently do something!</button>
+
+
+============================================
+
+
+//Required
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Forms</title>
+		</head>
+		<body>
+			<form action="destination.php" method="get">
+				<input type="text" required>
+				<input type="submit" value="Submit this Form">
+			</form>
+		</body>
+	</html>
+
+
+===========================================
+
+
+//Labels
+
+<label for="username">Please enter your username:</label>
+	<input type="text" name="username">
+
+<label for="password">Please enter your password:</label>
+	<input type="password" name="password">
+
+
+==========================================
+
+
+//Field sets and legends
+
+<fieldset>
+		<legend>Name</legend>
+		<label for="first">First Name:</label>
+		<input type="text" name="first">
+		<label for="last">Last Name:</label>
+		<input type="text" name="last">
+	</fieldset>
+
+
+============================================
+
+
+
+
+

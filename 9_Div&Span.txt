@@ -1,0 +1,31 @@
+
+//Division Tag
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Div</title>
+		</head>
+		<body>
+			<div>Division 1</div>
+			<div>Division 2</div>
+			<div>Division 3</div>
+		</body>
+	</html>
+
+
+===============================
+
+
+//Span Tag
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Span</title>
+		</head>
+		<body>
+			<p>The <span class="space">Solar System</span> is a cool place.</p>
+		</body>
+	</html>
+

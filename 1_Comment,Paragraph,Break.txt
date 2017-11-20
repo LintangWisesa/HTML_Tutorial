@@ -1,0 +1,53 @@
+
+//Comments
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Comments</title>
+		</head>
+		<body>
+			This is content.
+			<!-- This is a comment. -->
+		</body>
+	</html>
+
+
+=====================================
+
+
+//Paragraph Tags
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Paragraph Tags</title>
+		</head>
+		<body>
+			<p>I am on the first line</p>
+			<p>and I am on the second line.</p>
+		</body>
+	</html>
+
+
+=======================================
+
+
+//Line Break Tags
+
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Line Break Tags</title>
+		</head>
+		<body>
+			I am on the first line<br>
+			and I am on the second line.
+		</body>
+	</html>
+
+
+======================================
+
+
+
