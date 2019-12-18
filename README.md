@@ -2,6 +2,12 @@
 
 # __HTML Tutorial__
 
+[![Video](https://img.youtube.com/vi/YRjvXsGtupg/0.jpg)](https://www.youtube.com/watch?v=YRjvXsGtupg)
+
+HTML (Hyper Text Markup Language) adalah sebuah teks markup yang digunakan untuk membangun elemen-elemen sebuah halaman website, yang dapat ditampilkan di laman web browser sebagai komponen pasif maupun interaktif bagi user. Tutorial kali ini membahas step-by-step bagaimana membangun elemen HTML mulai dari nol.
+
+#
+
 #### Lintang Wisesa :love_letter: _lintangwisesa@ymail.com_
 
 [Facebook](https://www.facebook.com/lintangbagus) | 
