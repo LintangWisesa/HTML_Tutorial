@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tutor After Ngantor</title>
+    <style>
+        table, th, td {
+            border: 1px solid blue;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabel</h1>
+    <!-- table, tr, th, td -->
+    <table>
+        <thead>
+            <!-- header col -->
+            <tr>
+                <th>No.</th>
+                <th>Nama</th>
+                <th>Kota</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- data 1 -->
+            <tr>
+                <td>1.</td>
+                <td>Andi</td>
+                <td>Jakarta</td>
+            </tr>
+            <!-- data 2 -->
+            <tr>
+                <td>2.</td>
+                <td>Budi</td>
+                <td>Bandung</td>
+            </tr>
+            <!-- data 3 -->
+            <tr>
+                <td>3.</td>
+                <td>Caca</td>
+                <td>Jakarta</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- column span -->
+    <table>
+        <thead>
+            <tr>
+                <th>Kota Asal</th>
+                <th>Kota Sekarang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan='2'>
+                    <center>
+                        Jakarta
+                    </center>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- row span -->
+    <table>
+        <tbody>
+            <tr>
+                <th rowspan='2'>Jakarta</th>
+                <td>Andi</td>
+                <td>Budi</td>
+            </tr>
+            <tr>
+                <td>Caca</td>
+                <td>Deni</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

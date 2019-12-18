@@ -1,0 +1,39 @@
+
+
+//audio
+
+<audio src="music.mp3">This browser does not support this tag.</audio>
+
+<audio src="music.mp3" controls autoplay loop>This browser does not support this tag.</audio>
+
+<audio controls autoplay loop>
+    <source src="music.mp3" type="audio/mpeg">
+    <source src="music.ogg" type="audio/ogg">
+    <source src="music.wav" type="audio/wav">
+    <p>This browser does not support this tag.</p>
+  </audio>
+
+
+=================================================
+
+
+//video
+
+<video src="video.mp4">This browser does not support this tag.</video>
+
+<video width="640" height="480" poster="video_image.png" controls autoplay loop muted>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    <source src="video.webm" type="video/webm">
+    <p>This browser does not support this tag.</p>
+  </video>
+
+
+====================================================
+
+
+//Canvas
+
+ <canvas width="400" height="200">
+  </canvas>
+
